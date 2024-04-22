@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(51, 50, 50);
+    display: flex;
+    align-items: center;
+    min-height: 90vh;
+}
+.main {
+    margin-top: 5%;
+    margin-left: 35%;
+    width: 500px;
+    height: 750px;
+    border: 5px solid black;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.showing {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 150px;
+    border: 5px solid black;
+    background-color: rgb(51, 50, 50);
+}
+
+.previous-operation {
+    height: 60%;
+    font-size: 36px;
+    text-align: end;
+    margin-right: 10px;
+
+}
+
+.current-number{
+    height: 30%;
+    font-size: 48px;
+    text-align: end;
+    margin-right: 10px;
+}
+
+.operations-container {
+    margin-top: 7%;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 490px;
+}
+
+.clear{
+    background-color: rgb(16, 122, 30);
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 3px solid black;
+  }
+  
+.btn-btn-red:hover {
+    background-color: rgb(157, 44, 31);
+  }
+
+.btn-btn-blue:hover {
+    background-color: rgb(51, 50, 50);
+}
+
+.buttons-container {
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 440px;
+    height: 400px;
+}
+
+.btn {
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(51, 50, 50);
+    font-size: 20px;
+    width: 75px;
+    height: 75px;
+}
+
+.btn:hover {
+    background-color: rgba(64, 97, 158, 0.226);
+}
